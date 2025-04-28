@@ -4,76 +4,85 @@ GO
 USE DocStorageDB;
 GO
 
--- 1. Tài liệu -- OK
+-- 1. Document -- OK
 CREATE TABLE Document (
     DocumentId INT IDENTITY(1,1) PRIMARY KEY,
     Title NVARCHAR(500),
-    Author NVARCHAR(255),
     OriginalFormat NVARCHAR(10),
-    OriginalFileName NVARCHAR(255),
-    FileSize BIGINT NULL,
+    Author NVARCHAR(255),
+    FileSize INT NULL,
     UploadDate DATETIME DEFAULT GETDATE(),
-    FilePath NVARCHAR(500) NULL,
     PublishDate DATETIME NULL,
-    HtmlContent NVARCHAR(MAX) NULL,
+    FilePath NVARCHAR(500) NULL
 );
 
--- 2. Mục nội dung -- OK
+-- 1.1. Head -- OK
+CREATE TABLE Head (
+    HeadId INT IDENTITY(1,1) PRIMARY KEY,
+    DocumentId INT FOREIGN KEY REFERENCES Document(DocumentId),
+    HeadHTML NVARCHAR(MAX) NULL
+);
+
+-- 1.2. Section -- OK
 CREATE TABLE Section (
     SectionId INT IDENTITY(1,1) PRIMARY KEY,
     DocumentId INT FOREIGN KEY REFERENCES Document(DocumentId),
-    ParentSectionId INT NULL FOREIGN KEY REFERENCES Section(SectionId),
     Title NVARCHAR(500),
-    Level INT,
     OrderInDocument INT NOT NULL
 );
 
--- 3. Đoạn văn -- OK
+-- 1.2.1 Heading -- OK
+CREATE TABLE Heading (
+    HeadingId INT IDENTITY(1,1) PRIMARY KEY,
+    SectionId INT FOREIGN KEY REFERENCES Section(SectionId),
+    OrderInSection INT NOT NULL,
+    ParentHeadingId INT NULL FOREIGN KEY REFERENCES Heading(HeadingId),
+    Level INT,
+    Title NVARCHAR(500),
+    Style NVARCHAR(MAX) NULL
+);
+
+
+-- 1.2.2 TableElement -- OK
+CREATE TABLE TableElement (
+    TableId INT IDENTITY(1,1) PRIMARY KEY,
+    SectionId INT FOREIGN KEY REFERENCES Section(SectionId),
+    OrderInSection INT NOT NULL,
+    TableHTML NVARCHAR(MAX) NULL
+);
+
+-- 1.2.3 Paragraph
 CREATE TABLE Paragraph (
     ParagraphId INT IDENTITY(1,1) PRIMARY KEY,
     SectionId INT FOREIGN KEY REFERENCES Section(SectionId),
     OrderInSection INT NOT NULL,
-    Alignment NVARCHAR(50) NULL
+    ParagraphHTML NVARCHAR(MAX) NULL
 );
 
--- 4. Câu -- OK
+-- 1.2.3.1 Sentence
 CREATE TABLE Sentence (
     SentenceId INT IDENTITY(1,1) PRIMARY KEY,
     ParagraphId INT FOREIGN KEY REFERENCES Paragraph(ParagraphId),
     OrderInParagraph INT NOT NULL,
     TextContent NVARCHAR(MAX),
-    Font NVARCHAR(100) NULL,
-    FontSize INT NULL,
-    Bold BIT DEFAULT 0,
-    Italic BIT DEFAULT 0,
-    Underline BIT DEFAULT 0,
-    Color NVARCHAR(50) NULL
+    Style NVARCHAR(MAX) NULL
 );
 
--- 5. Bảng -- OK
-CREATE TABLE TableElement (
-    TableId INT IDENTITY(1,1) PRIMARY KEY,
-    ParagraphId INT FOREIGN KEY REFERENCES Paragraph(ParagraphId),
-    TableHTML NVARCHAR(MAX) NULL,
-    OrderInParagraph INT NOT NULL
-);
-
--- 6. Hình ảnh -- OK
+-- 1.2.3.2 Image
 CREATE TABLE Image (
     ImageId INT IDENTITY(1,1) PRIMARY KEY,
     ParagraphId INT FOREIGN KEY REFERENCES Paragraph(ParagraphId),
-    SentenceId INT NULL FOREIGN KEY REFERENCES Sentence(SentenceId),
     OrderInParagraph INT NOT NULL,
-    OrderInSentence INT NULL,
-    ImageHTML NVARCHAR(MAX) NULL
+    ImageContent NVARCHAR(MAX),
+    ImageType NVARCHAR(20),
+    Style NVARCHAR(MAX) NULL
 );
 
--- 7. Công thức -- OK
+-- 4.3. Equation
 CREATE TABLE Equation (
     EquationId INT IDENTITY(1,1) PRIMARY KEY,
     ParagraphId INT FOREIGN KEY REFERENCES Paragraph(ParagraphId),
-    SentenceId INT NULL FOREIGN KEY REFERENCES Sentence(SentenceId),
-    EquationHTML NVARCHAR(MAX) NULL,
     OrderInParagraph INT NOT NULL,
-    OrderInSentence INT NULL
+    EquationContent NVARCHAR(MAX),
+    Style NVARCHAR(MAX) NULL
 );
