@@ -1,0 +1,88 @@
+CREATE DATABASE DocStorageDB;
+GO
+
+USE DocStorageDB;
+GO
+
+-- 1. Document -- OK
+CREATE TABLE Document (
+    DocumentId INT IDENTITY(1,1) PRIMARY KEY,
+    Title NVARCHAR(500),
+    OriginalFormat NVARCHAR(10),
+    Author NVARCHAR(255),
+    FileSize INT NULL,
+    UploadDate DATETIME DEFAULT GETDATE(),
+    PublishDate DATETIME NULL,
+    FilePath NVARCHAR(500) NULL
+);
+
+-- 1.1. Head -- OK
+CREATE TABLE Head (
+    HeadId INT IDENTITY(1,1) PRIMARY KEY,
+    DocumentId INT FOREIGN KEY REFERENCES Document(DocumentId),
+    HeadHTML NVARCHAR(MAX) NULL
+);
+
+-- 1.2. Section -- OK
+CREATE TABLE Section (
+    SectionId INT IDENTITY(1,1) PRIMARY KEY,
+    DocumentId INT FOREIGN KEY REFERENCES Document(DocumentId),
+    Title NVARCHAR(500),
+    OrderInDocument INT NOT NULL
+);
+
+-- 1.2.1 Heading -- OK
+CREATE TABLE Heading (
+    HeadingId INT IDENTITY(1,1) PRIMARY KEY,
+    SectionId INT FOREIGN KEY REFERENCES Section(SectionId),
+    OrderInSection INT NOT NULL,
+    ParentHeadingId INT NULL FOREIGN KEY REFERENCES Heading(HeadingId),
+    Level INT,
+    Title NVARCHAR(500),
+    Style NVARCHAR(MAX) NULL
+);
+
+
+-- 1.2.2 TableElement -- OK
+CREATE TABLE TableElement (
+    TableId INT IDENTITY(1,1) PRIMARY KEY,
+    SectionId INT FOREIGN KEY REFERENCES Section(SectionId),
+    OrderInSection INT NOT NULL,
+    TableHTML NVARCHAR(MAX) NULL
+);
+
+-- 1.2.3 Paragraph
+CREATE TABLE Paragraph (
+    ParagraphId INT IDENTITY(1,1) PRIMARY KEY,
+    SectionId INT FOREIGN KEY REFERENCES Section(SectionId),
+    OrderInSection INT NOT NULL,
+    ParagraphHTML NVARCHAR(MAX) NULL
+);
+
+-- 1.2.3.1 Sentence
+CREATE TABLE Sentence (
+    SentenceId INT IDENTITY(1,1) PRIMARY KEY,
+    ParagraphId INT FOREIGN KEY REFERENCES Paragraph(ParagraphId),
+    OrderInParagraph INT NOT NULL,
+    TextContent NVARCHAR(MAX),
+    Style NVARCHAR(MAX) NULL
+);
+
+-- 1.2.3.2 Image
+CREATE TABLE Image (
+    ImageId INT IDENTITY(1,1) PRIMARY KEY,
+    ParagraphId INT FOREIGN KEY REFERENCES Paragraph(ParagraphId),
+    OrderInParagraph INT NOT NULL,
+    ImageContent NVARCHAR(MAX),
+    ImageType NVARCHAR(20),
+    Style NVARCHAR(MAX) NULL
+);
+
+-- 4.3. Equation
+CREATE TABLE Equation (
+    EquationId INT IDENTITY(1,1) PRIMARY KEY,
+    ParagraphId INT FOREIGN KEY REFERENCES Paragraph(ParagraphId),
+    OrderInParagraph INT NOT NULL,
+    EquationContent NVARCHAR(MAX),
+    Style NVARCHAR(MAX) NULL
+);
