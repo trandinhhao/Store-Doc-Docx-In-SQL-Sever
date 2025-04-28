@@ -1,0 +1,10 @@
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.ResolveComReference.cache
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
