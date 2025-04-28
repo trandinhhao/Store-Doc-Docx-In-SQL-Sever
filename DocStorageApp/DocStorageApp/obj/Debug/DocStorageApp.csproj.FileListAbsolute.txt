@@ -1,8 +1,0 @@
-D:\Hoc-Dev\ttcs\DocStorageApp\DocStorageApp\bin\Debug\DocStorageApp.exe.config
-D:\Hoc-Dev\ttcs\DocStorageApp\DocStorageApp\obj\Debug\DocStorageApp.Properties.Resources.resources
-D:\Hoc-Dev\ttcs\DocStorageApp\DocStorageApp\obj\Debug\DocStorageApp.csproj.GenerateResource.Cache
-D:\Hoc-Dev\ttcs\DocStorageApp\DocStorageApp\bin\Debug\DocStorageApp.exe
-D:\Hoc-Dev\ttcs\DocStorageApp\DocStorageApp\bin\Debug\DocStorageApp.pdb
-D:\Hoc-Dev\ttcs\DocStorageApp\DocStorageApp\obj\Debug\DocStorageApp.exe
-D:\Hoc-Dev\ttcs\DocStorageApp\DocStorageApp\obj\Debug\DocStorageApp.pdb
-D:\Hoc-Dev\ttcs\DocStorageApp\DocStorageApp\obj\Debug\DocStorageApp.csprojResolveAssemblyReference.cache
