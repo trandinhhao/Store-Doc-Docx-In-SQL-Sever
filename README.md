@@ -35,6 +35,10 @@ Xây dựng một phần mềm có khả năng:
 
 Sơ đồ mô hình CSDL: phân cấp từ tài liệu → section → đoạn văn → câu/ảnh/công thức → bảng → ô → nội dung trong ô.
 
+<div align="center">
+  <img src="images/db.png" alt="CSDL">
+</div>
+
 ---
 
 ## ⚙️ Chức năng chính
@@ -51,6 +55,11 @@ Sơ đồ mô hình CSDL: phân cấp từ tài liệu → section → đoạn v
 4. **Tái cấu trúc và hiển thị tài liệu**
    - Truy vấn dữ liệu từ DB, tái tạo HTML, hiển thị tài liệu qua trình duyệt tích hợp
 
+Flow:
+<div align="center">
+  <img src="images/flow.png" alt="flow">
+</div>
+
 ---
 
 ## 💡 Kết quả đạt được
@@ -59,3 +68,16 @@ Sơ đồ mô hình CSDL: phân cấp từ tài liệu → section → đoạn v
 - ✅ Chuyển đổi thành công tài liệu có nội dung phức tạp
 - ✅ Tái tạo tài liệu gần giống bản gốc (gồm ảnh, bảng, tiêu đề, công thức…)
 - ✅ Lưu trữ dữ liệu có cấu trúc rõ ràng, dễ mở rộng
+
+Before:
+<div align="center">
+  <img src="images/before.png" alt="before">
+</div>
+
+After:
+<div align="center">
+  <img src="images/after1.png" alt="after">
+</div>
+<div align="center">
+  <img src="images/after2.png" alt="after">
+</div>
