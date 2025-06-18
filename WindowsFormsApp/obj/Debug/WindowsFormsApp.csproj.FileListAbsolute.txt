@@ -1,0 +1,69 @@
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.ResolveComReference.cache
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.ResolveComReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\Admin\Downloads\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.ResolveComReference.cache
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\PC\Desktop\TTCS-PRJ\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.ResolveComReference.cache
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\Users\PC\Desktop\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.ResolveComReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\Admin\Downloads\WindowsFormsApp (1)\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.ResolveComReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\Admin\Downloads\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.ResolveComReference.cache
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\PC\Desktop\0506\WindowsFormsApp Main\WindowsFormsApp Main\WindowsFormsApp (1)\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
