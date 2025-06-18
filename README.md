@@ -55,7 +55,7 @@ Sơ đồ mô hình CSDL: phân cấp từ tài liệu → section → đoạn v
 4. **Tái cấu trúc và hiển thị tài liệu**
    - Truy vấn dữ liệu từ DB, tái tạo HTML, hiển thị tài liệu qua trình duyệt tích hợp
 
-Flow:
+### Flow:
 <div align="center">
   <img src="images/flow.png" alt="flow">
 </div>
@@ -69,12 +69,12 @@ Flow:
 - ✅ Tái tạo tài liệu gần giống bản gốc (gồm ảnh, bảng, tiêu đề, công thức…)
 - ✅ Lưu trữ dữ liệu có cấu trúc rõ ràng, dễ mở rộng
 
-Before:
+### Before:
 <div align="center">
   <img src="images/before.png" alt="before">
 </div>
 
-After:
+### After:
 <div align="center">
   <img src="images/after1.png" alt="after">
 </div>
