@@ -1,9 +1,0 @@
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Release\WindowsFormsApp.exe.config
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Release\WindowsFormsApp.csproj.ResolveComReference.cache
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Release\WindowsFormsApp.exe
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\bin\Release\WindowsFormsApp.pdb
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Release\WindowsFormsApp.MainForm.resources
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Release\WindowsFormsApp.Properties.Resources.resources
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Release\WindowsFormsApp.csproj.GenerateResource.Cache
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Release\WindowsFormsApp.exe
-D:\Hoc-Dev\ttcs\WindowsFormsApp\WindowsFormsApp\obj\Release\WindowsFormsApp.pdb
